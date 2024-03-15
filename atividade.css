@@ -59,6 +59,7 @@ margin-top: 80px;
 .flex img{
     max-width: 100px;
     height: 100px;
+    
 }
 
 .flex div {
@@ -77,6 +78,10 @@ margin-top: 80px;
 
     background-color: black;
     padding: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
 }
 
 
@@ -87,16 +92,41 @@ margin-top: 80px;
     align-items: center;
     padding: 60px;
     flex-wrap: wrap;
+    color: aqua;
+    list-style: none;
+    display: flex;
+    
 
+}
+ 
+
+        .atividade2 li {
+        display: flex;
+        
+        margin-inline: 20px;
+
+        }
+
+
+
+
+.atividade3 a{
+    color: aqua;
+    
 }
 
 
 
-.rodape {
+
+.rodape a {
     cursor: pointer;
 } 
 
 .carros {
 
  padding: 120px;   
+}
+
+.atividade2 li a{
+    color: aqua;
 }
