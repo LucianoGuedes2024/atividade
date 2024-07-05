@@ -95,6 +95,7 @@ margin-top: 80px;
     color: aqua;
     list-style: none;
     display: flex;
+    text-decoration: none;
     
 
 }
@@ -104,6 +105,7 @@ margin-top: 80px;
         display: flex;
         
         margin-inline: 20px;
+        text-decoration: none;
 
         }
 
@@ -115,7 +117,11 @@ margin-top: 80px;
     
 }
 
-
+.atividade3 i{
+    margin-right: 30px;
+    font-size: 20px;
+    
+}
 
 
 .rodape a {
@@ -129,4 +135,5 @@ margin-top: 80px;
 
 .atividade2 li a{
     color: aqua;
+    text-decoration: none;
 }
